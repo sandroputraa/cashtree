@@ -5,7 +5,7 @@ function cash($nohp, $jumlah, $wait){
     $x = 0; 
     while($x < $jumlah) {
         
-		$body = 'phone='.$nohp.'&pn=com.vitiglobal.cashtree&code='.$kata.' www.cashtree.id&lc=en_GB&av=23050&ov=5.1&mmses=cTUvhAkyW+IYHjxM1C9dmdpBbxvKtiDgl0k+hUoGRulQeZJVCI3KSKErgTF2CNlOBU11VJKONcVfEB7eKWAycA==';
+		$body = 'phone='.$nohp.'&pn=com.vitiglobal.cashtree&code=['.$kata.'] www.cashtree.id&lc=en_GB&av=23050&ov=5.1&mmses=cTUvhAkyW+IYHjxM1C9dmdpBbxvKtiDgl0k+hUoGRulQeZJVCI3KSKErgTF2CNlOBU11VJKONcVfEB7eKWAycA==';
     // jika limit rubah sendiri dengan session id kalian :)
 				
         $ch = curl_init();
